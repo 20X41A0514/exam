@@ -1,0 +1,15 @@
+pipeline{
+ agent any
+ stages{
+    stage("Validate"){
+    steps{
+      echo"hello this is me"
+      }
+      }
+      stage("Validate"){
+    steps{
+      echo"hello this is me"
+      }
+      }
+      
+      
